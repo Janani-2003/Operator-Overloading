@@ -11,6 +11,51 @@
  
  
  ##Output:
- 
+ ```
+ Developed by : JANANI R
+ Register number : 212221230039
+ ```
+ ```
+ using System;
+    class program
+    {
+        public program(int p1, int p2)
+        {
+            Console.WriteLine(p1 * p2);
+        }
+        public program(int p1)
+        {
+        Console.WriteLine(p1 * 1);
+        }
+        public static bool operator == (program p1, program p2)
+        {
+            return p1.Equals(p2);
+        }
+        public static bool operator != (program p1, program p2)
+        {
+            return !p1.Equals(p2);
+        }
+
+    }
+    class Example
+    {
+        public static void Main()
+        {
+            program p1 = new program(10,20);
+            program p2 = new program(10);
+            p1 = p2;
+            if(p1==p2)
+            {
+                Console.WriteLine("Objects are equal");
+            }
+            else
+            {
+                Console.WriteLine("Objects are not equal");
+            }
+        }
+    }
+
+
+ ```
  
  ##Result:
