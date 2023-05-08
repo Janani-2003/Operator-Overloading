@@ -8,9 +8,6 @@
  
  
  ##Program:
- 
- 
- ##Output:
  ```
  Developed by : JANANI R
  Register number : 212221230039
@@ -57,5 +54,8 @@
 
 
  ```
+ 
+ ##Output:
+ ![Screenshot 2023-05-08 145423](https://user-images.githubusercontent.com/94288340/236788599-1fdb31c0-ac42-4055-8703-8d05cfcd55a3.png)
  
  ##Result:
